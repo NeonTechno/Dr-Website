@@ -1,14 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
   reactStrictMode: true,
-  experimental: { appDir: true },
-  images: { unoptimized: true },
-  async rewrites() {
-    return [
-      { source: '/explorer/:path*', destination: 'https://explorer.decentralizedrights.com/:path*' },
-      { source: '/api/:path*', destination: 'https://api.decentralizedrights.com/:path*' },
-      { source: '/app/:path*', destination: 'https://app.decentralizedrights.com/:path*' }
-    ];
+  images: { 
+    unoptimized: true 
   },
+  // Removed external rewrites - explorer and app-portal are now local routes
 };
+
 module.exports = nextConfig;

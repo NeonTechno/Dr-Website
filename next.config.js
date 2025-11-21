@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
   reactStrictMode: true,
   images: { 
     unoptimized: true 
   },
-  // Removed external rewrites - explorer and app-portal are now local routes
+  // Removed rewrites - subdomains will be handled by Vercel configuration
+  // or DNS settings, not Next.js rewrites
 };
 
 module.exports = nextConfig;

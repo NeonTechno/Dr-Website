@@ -1,8 +1,5 @@
 {
-  "routes": [
-    { "src": "/api/(.*)", "dest": "https://api.decentralizedrights.com/$1" },
-    { "src": "/explorer/(.*)", "dest": "https://explorer.decentralizedrights.com/$1" },
-    { "src": "/app/(.*)", "dest": "https://app.decentralizedrights.com/$1" },
-    { "src": "/.*", "dest": "/" }
-  ]
+  "buildCommand": "next build",
+  "framework": "nextjs",
+  "rewrites": []
 }

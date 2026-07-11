@@ -1,5 +1,68 @@
 {
-  "buildCommand": "next build",
-  "framework": "nextjs",
-  "rewrites": []
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": {
+        "installCommand": "npm install",
+        "buildCommand": "npm run build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/app/(.*)",
+      "dest": "/app/$1",
+      "headers": {
+        "x-powered-by": "DRP & Vercel"
+      }
+    },
+    {
+      "src": "/explorer/(.*)",
+      "dest": "/explorer/$1"
+    },
+    {
+      "src": "/economics/(.*)",
+      "dest": "/economics/$1"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/app/(.*)",
+      "destination": "/app/$1"
+    },
+    {
+      "source": "/explorer/(.*)",
+      "destination": "/explorer/$1"
+    },
+    {
+      "source": "/economics/(.*)",
+      "destination": "/economics/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-DNS-Prefetch-Control",
+          "value": "on"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "cleanUrls": true
 }

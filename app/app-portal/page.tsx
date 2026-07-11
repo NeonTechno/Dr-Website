@@ -1,23 +1,27 @@
 export default function AppPortalPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      {/* Header */}
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">
-              DRP Application Portal
-            </h1>
-            <p className="text-xl text-gray-600">
-              Submit Proofs, Track Rights, and Earn Rewards
-            </p>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">DRP</span>
+              </div>
+              <div>
+                <h1 className="text-2xl font-bold text-gray-900">DRP Application Portal</h1>
+                <p className="text-xl text-gray-600">Submit Proofs, Track Rights, and Earn Rewards</p>
+              </div>
+            </div>
+            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors">
+              Connect Wallet
+            </button>
           </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        {/* AI Identity Score Panel */}
-        <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-lg p-8 mb-8 text-white">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl shadow-lg p-8 mb-8 text-white">
           <h2 className="text-3xl font-bold mb-4">AI Identity Score</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
@@ -39,9 +43,8 @@ export default function AppPortalPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          {/* Submit Proof of Activities */}
           <div className="bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4">
+            <div className="bg-blue-600 px-6 py-4">
               <h3 className="text-xl font-bold text-white">Submit Proof of Activity</h3>
             </div>
             <div className="p-6">
@@ -90,9 +93,8 @@ export default function AppPortalPage() {
             </div>
           </div>
 
-          {/* Submit Proof of Status */}
           <div className="bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="bg-gradient-to-r from-green-600 to-green-700 px-6 py-4">
+            <div className="bg-green-600 px-6 py-4">
               <h3 className="text-xl font-bold text-white">Submit Proof of Status</h3>
             </div>
             <div className="p-6">
@@ -142,7 +144,6 @@ export default function AppPortalPage() {
           </div>
         </div>
 
-        {/* Rewards Panel */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <div className="bg-white rounded-xl shadow-md p-6">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Rewards Panel</h3>
@@ -159,7 +160,7 @@ export default function AppPortalPage() {
                   +156 earned this month
                 </div>
               </div>
-              <div className="bg-gradient-to-r from-purple-100 to-purple-200 rounded-lg p-4">
+              <div className="bg-gradient-to-r from-indigo-100 to-indigo-200 rounded-lg p-4">
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="text-sm text-gray-600">$DeRi Balance</div>
@@ -177,7 +178,6 @@ export default function AppPortalPage() {
             </button>
           </div>
 
-          {/* Sustainability Tracker */}
           <div className="bg-white rounded-xl shadow-md p-6">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Sustainability Tracker</h3>
             <div className="space-y-4">
@@ -211,9 +211,8 @@ export default function AppPortalPage() {
           </div>
         </div>
 
-        {/* Footer */}
         <footer className="mt-12 text-center text-gray-600 text-sm">
-          <p>© 2025 Decentralized Rights Protocol. Empowering human rights through blockchain technology.</p>
+          <p>© 2026 Decentralized Rights Protocol. Empowering human rights through blockchain technology.</p>
         </footer>
       </div>
     </div>

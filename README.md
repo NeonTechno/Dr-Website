@@ -114,25 +114,25 @@ yarn build
 
 1. **Connect to Vercel**
    - Go to [vercel.com](https://vercel.com)
-   - Import your GitHub repository: `NeonTechno/Dr-Website`
+   - Import your GitHub repository: NeonTechno/Dr-Website
    - Vercel will auto-detect Next.js
 
 2. **Configure Environment Variables**
-   - Add `NVIDIA_API_KEY` from your `.env.local` file
+   - Add NVIDIA_API_KEY from your .env.local file
    - Add any other required variables
 
 3. **Deploy**
-   - Click "Deploy"
-   - Wait for build to complete (~2-3 minutes)
+   - Click Deploy
+   - Wait for build to complete (2-3 minutes)
    - Your site will be live!
 
 4. **Custom Domain (Optional)**
-   - Add `app.decentralizedrights.com` in Vercel project settings
+   - Add app.decentralizedrights.com in Vercel project settings
    - Configure DNS records with your domain provider
 
 ### Other Platforms
 
-The project is configured for standalone output and can be deployed to:
+The project is configured for Vercel deployment and can be deployed to:
 - AWS Amplify
 - Netlify
 - Cloudflare Pages
@@ -144,30 +144,30 @@ The project is configured for standalone output and can be deployed to:
 
 | Variable | Description | Required | Default |
 |----------|-------------|----------|---------|
-| `NVIDIA_API_KEY` | NVIDIA API key for verification | Yes | - |
-| `NVIDIA_VERIFICATION_API_URL` | NVIDIA verification endpoint | No | `https://api.nvidia.com/verify` |
-| `NEXT_PUBLIC_APP_NAME` | Application name | No | `Decentralized Rights Protocol` |
-| `NEXT_PUBLIC_NETWORK` | Blockchain network | No | `mainnet` |
-| `NEXT_PUBLIC_ENABLE_AI_VERIFICATION` | Enable AI verification | No | `true` |
+| NVIDIA_API_KEY | NVIDIA API key for verification | Yes | - |
+| NVIDIA_VERIFICATION_API_URL | NVIDIA verification endpoint | No | https://api.nvidia.com/verify |
+| NEXT_PUBLIC_APP_NAME | Application name | No | Decentralized Rights Protocol |
+| NEXT_PUBLIC_NETWORK | Blockchain network | No | mainnet |
+| NEXT_PUBLIC_ENABLE_AI_VERIFICATION | Enable AI verification | No | true |
 
 ### Subdomains
 
 The project includes routing configuration for subdomains:
 
-- `/` → decentralizedrights.com
-- `/app/*` → app.decentralizedrights.com
-- `/explorer/*` → explorer.decentralizedrights.com
-- `/api/*` → api.decentralizedrights.com
+- / -> decentralizedrights.com
+- /app/* -> app.decentralizedrights.com
+- /explorer/* -> explorer.decentralizedrights.com
+- /api/* -> api.decentralizedrights.com
 
 ## 📊 Available Routes
 
 | Route | Description |
 |-------|-------------|
-| `/` | Homepage |
-| `/app-portal` | App Dashboard - Submit proofs, track rights |
-| `/explorer` | Block Explorer - View blocks and transactions |
-| `/economics/micro` | Micro Economics - Token utility, supply & demand |
-| `/economics/macro` | Macro Economics - Global impact, forecasts |
+| / | Homepage |
+| /app-portal | App Dashboard - Submit proofs, track rights |
+| /explorer | Block Explorer - View blocks and transactions |
+| /economics/micro | Micro Economics - Token utility, supply and demand |
+| /economics/macro | Macro Economics - Global impact, forecasts |
 
 ## 🎨 Design System
 
@@ -184,18 +184,18 @@ The project includes routing configuration for subdomains:
 
 ### Typography
 
-- **Font**: Inter (Google Fonts)
-- **Weights**: 400, 500, 600, 700
-- **Sizes**: xs (0.75rem), sm (0.875rem), base (1rem), lg (1.125rem), xl (1.25rem), 2xl (1.5rem), 3xl (1.875rem), 4xl (2.25rem), 5xl (3rem)
+- Font: Inter (Google Fonts)
+- Weights: 400, 500, 600, 700
+- Sizes: xs (0.75rem), sm (0.875rem), base (1rem), lg (1.125rem), xl (1.25rem), 2xl (1.5rem), 3xl (1.875rem), 4xl (2.25rem), 5xl (3rem)
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
+2. Create a feature branch (git checkout -b feature/your-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin feature/your-feature)
 5. Open a Pull Request
 
 ## 📜 License
@@ -204,11 +204,11 @@ Decentralized Rights Protocol - All Rights Reserved
 
 ## 🙏 Acknowledgments
 
-- **NVIDIA** - AI verification and authentication
-- **Vercel** - Hosting and deployment
-- **Next.js** - React framework
-- **TailwindCSS** - Utility-first CSS
-- **TypeScript** - Type safety
+- NVIDIA - AI verification and authentication
+- Vercel - Hosting and deployment
+- Next.js - React framework
+- TailwindCSS - Utility-first CSS
+- TypeScript - Type safety
 
 ## 📞 Support
 
@@ -220,6 +220,6 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ by the Decentralized Rights Protocol Team**
+**Built with love by the Decentralized Rights Protocol Team**
 
-*Last Updated: July 11, 2026*
+*Last Updated: July 12, 2026*

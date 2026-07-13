@@ -2,6 +2,8 @@
 
 ## 🚀 DRP 2.0 - Enhanced with NVIDIA AI Verification
 
+**🔧 Deployment Status: Redeploying with fixes...**
+
 Welcome to the official website repository for the **Decentralized Rights Protocol (DRP)**. This version includes comprehensive economic pages, NVIDIA AI verification integration, and a modern, professional design.
 
 ## 🌐 Live Sites
@@ -20,8 +22,8 @@ Welcome to the official website repository for the **Decentralized Rights Protoc
 - **Smooth animations** - Subtle transitions for better UX
 
 ### 📊 New Economic Pages
-- **Micro Economics** ()/economics/micro) - Token utility, supply & demand, transaction costs, incentive mechanisms
-- **Macro Economics** ()/economics/macro) - Global impact, adoption metrics, economic forecasts
+- **Micro Economics** (/economics/micro) - Token utility, supply and demand, transaction costs, incentive mechanisms
+- **Macro Economics** (/economics/macro) - Global impact, adoption metrics, economic forecasts
 - **Interactive calculators** - Token value and economic projections
 - **NVIDIA AI verification** - All economic data is AI-authenticated
 
@@ -222,4 +224,4 @@ For issues or questions:
 
 **Built with love by the Decentralized Rights Protocol Team**
 
-*Last Updated: July 12, 2026*
+*Last Updated: July 13, 2026*
